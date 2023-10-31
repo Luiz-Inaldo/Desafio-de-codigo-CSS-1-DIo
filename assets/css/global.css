@@ -35,7 +35,7 @@ span {
     text-align: center;
     background-image: url('../img/backgroundgif1.gif');
     background-repeat: no-repeat;
-    background-size: 1355px 600px;
+    background-size: 100% 600px;
     border-bottom: 10px double white;
     display: flex;
     justify-content: center;
@@ -89,6 +89,7 @@ span {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
     padding: 50px;
     height: fit-content;
     font-size: 25px;
